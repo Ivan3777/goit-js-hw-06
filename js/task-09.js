@@ -10,4 +10,4 @@ changeButtonEl.addEventListener('click', event => {
   let color = getRandomHexColor();
   bodyEl.style.backgroundColor = color;
   colorEl.textContent = color;
-})
+});
