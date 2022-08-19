@@ -14,6 +14,5 @@ function onBlur(event) {
     input.classList.remove('valid');
     input.classList.add('invalid');
   }
+  console.log(inputEl.value.length);
 }
-console.log(inputEl.dataset.length);
-console.log(inputEl.value.length);
